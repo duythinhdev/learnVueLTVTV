@@ -1,0 +1,74 @@
+- Cau truc thu muc
+- install vue cho toan may npm install -g @vue/cli
+ + create vue namefile
+- Vuejs va reactjs diem tuong dong:
++ Data = state
++ VueX = Redux
++ Vue Router = react router dom
++ Component = component
++ props
+data same state
+src: source code
+ + main.js => file goc
+ + app.vue => component goc
+ + asset => hinh anh and font chu
+ + component => chua cac component con
+ + Component:
+    + 3 thanh phan:
+        + template: html => hien thi
+        + script: js => xu ly
+        + style: css => lam dep
+        + Ho tro scss:
+        + scoped style: style danh rieng cho component
+ + Tao component:
+    + Tao File .vue
+    + Import
+    + Khai Bao
+ + Root Element:
+    +Bat Buoc
+ + 2 ways binding
+  + bind du lieu 2 chieu
+oop:
+  + object: property, method
+  + Phu thuoc vao kieu cua element
+  + lam nut => bam an hien the div
+  + life cyle vueJs vong doi trong vuejs
+  + Binding:
+    + Value binding: {{}}
+    + Property binding:
+    + v-binding: [ten thuoc tinh]="bien"
+       + Viet tat: dau 2 cham
+       +style and class binding
+        :class
+     + model:
+        + lien ket element voi property
+  + event hanlding
+    + bat su kien tu cac  element
+    + v-on:[ten su kien]="123123()"
+        +viet tat @
+    + prevend default event:
+        + huy bo event mac dinh cua element di
+    + ref: anh sa den chinh element
+    this.$refs.channelname =  element html
+condition rendering
+    + v-show: an hien theo  element dieu kien
+    + v-hide: nguoc lai
+    + v-if: An/ hien element theo dieu kien
+    + v-el:
+list rendering
+    + v-for
+methods:
+    + ham cua Vuejs object
+watch:
+    + theo doi su thay doi cua data
+hook
+    + mounted:
+Props:
+    syntax: component cha :data => component con take from prop {''}
+    + Du lieu day tu component cha => component con
+    + dung mang ten props
+Props giong nhu data
+
+filter:
++ Cách hiển thị ở dưới khác dùng filter filter là thg nằm giữa
++ biến đổi dữ liệu trước khi render
